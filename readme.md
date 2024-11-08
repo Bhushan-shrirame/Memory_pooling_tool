@@ -17,8 +17,8 @@
 - Build DRAMSim2 using the following command:
   ```bash
   cd DRAMSim2
-make libdramsim.so
-cd ..
+  make libdramsim.so
+  cd ..
   ```
 - make executable of DRackSim name it TrackDRackSim using make commmand
 ### **Step 4: Update ini Directory**
