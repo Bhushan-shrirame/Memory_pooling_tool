@@ -4,6 +4,7 @@
 ## **1. Setup Instructions:**
 
 ### **Step 1: Download DRAMSim2**
+* Download DRAMSim2 from **https://github.com/umd-memsys/DRAMSim2**
 - Download the DRAMSim2 package in your working directory.
 
 ### **Step 2: Apply Patch**
@@ -30,6 +31,11 @@
 
 
 ### **Step 1: Trace Production**
+***Installing Pin***
+* Download pin-3.30-98830-g1d7b601b3-gcc-linux.tar.gz from 
+
+https://www.intel.com/content/www/us/en/developer/articles/tool/pin-a-binary-instrumentation-tool-downloads.html
+
 
 1. Copy the `DRackSim-Trace` directory to your Pin tool path. The directory should be placed inside:
    ```bash
@@ -49,7 +55,7 @@
      ```bash
      $pin-path/source/include/pin/
      ```
-6. Create obj-intel64 folder in $pin-path/source/include/pin/
+6. Create obj-intel64 folder in $pin-path/source/tools/DRAMSim-Trace/
 
 7. Run the following command to build the memory trace tool:
    ```bash
