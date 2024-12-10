@@ -55,7 +55,7 @@ https://www.intel.com/content/www/us/en/developer/articles/tool/pin-a-binary-ins
      ```bash
      $pin-path/source/include/pin/
      ```
-6. Create obj-intel64 folder in $pin-path/source/tools/DRAMSim-Trace/
+6. Create obj-intel64 folder in $pin-path/source/tools/DRackSim-Trace/
 
 7. Run the following command to build the memory trace tool:
    ```bash
