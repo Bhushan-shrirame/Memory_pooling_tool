@@ -41,6 +41,12 @@ https://www.intel.com/content/www/us/en/developer/articles/tool/pin-a-binary-ins
    ```bash
    pin-path/source/tools
    ```
+  5. Install Boost Libraries
+   - Download Boost or use the provided copy.
+   - Extract it into the following directory:
+     ```bash
+     $pin-path/source/include/pin/
+     ```
 2. Run `make` in pin-path/source/tools to compile the pintool.
 
 3. Copy all the files inside the `Trace_tool` directory into the main directory (similar to the DRAMSim-Trace folder).
@@ -49,12 +55,7 @@ https://www.intel.com/content/www/us/en/developer/articles/tool/pin-a-binary-ins
    ```bash
    cd DRAMSim-Trace
    ```
-5. Install Boost Libraries
-   - Download Boost or use the provided copy.
-   - Extract it into the following directory:
-     ```bash
-     $pin-path/source/include/pin/
-     ```
+
 6. Create obj-intel64 folder in $pin-path/source/tools/DRackSim-Trace/
 
 7. Run the following command to build the memory trace tool:
